@@ -4,7 +4,7 @@ import time
 all = input ("Enter all the task you have separated with a ','!\n")
 task= all.split(",")
 
-print ("This are the task in your tasks list:")
+print ("These are the task in your tasks list:")
 print (task)
 
 x=random.choice(task)
