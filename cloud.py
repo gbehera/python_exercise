@@ -12,4 +12,4 @@ cloud = WordCloud(background_color="white", mask=our_mask).generate(text)
 
 plt.imshow(cloud)
 plt.axis('off')
-plt.show()
+plt.show()  
