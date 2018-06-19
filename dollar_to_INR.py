@@ -1,4 +1,4 @@
-class Amount(object):
+class Account(object):
 
     def __init__(self,rate):
         self.__amt = 0
@@ -14,11 +14,11 @@ class Amount(object):
 
     @property
     def inr(self):
-        return self.__amt * self.rate
+        return (self.__amt * self.rate)
 
 if __name__== '__main__':
-    patel = Amount(rate=66.75)
-    patel.amount = 20
-    print ("Amount:" ,patel.amount )
-    print ("Rate:" , patel.rate_value)
-    print ("Calculated:" , patel.inr)
+    obj = Account(rate=66.75)
+    obj.amount = 20
+    print ("Amount:" ,obj.amount )
+    print ("Rate:" , obj.rate_value)
+    print ("Calculated:" , obj.inr)
