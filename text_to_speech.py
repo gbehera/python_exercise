@@ -1,4 +1,5 @@
 from gtts import gTTS
+# also do, brew install mpg321
 import os
 
 my_text = 'Hello I am a Patbot. Please give me some command.'
